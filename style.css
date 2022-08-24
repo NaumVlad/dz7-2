@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 110px;
+}
+
+section {
+  margin: 0.5em;
+  width: calc(33.33vw - 21px);
+  height: calc(33.33vh - 32px);
+  display: inline-block;
+  background-color: #e7a01c;
+  background-size: 150px;
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+section:hover {
+  box-shadow: 10px 5px 5px black;
+  transition: 0.7s;
+}
+
+.cards1 {
+  background-image: url(/image/acura_PNG118.png);
+}
+
+.cards2 {
+  background-image: url(/image/audi_PNG99482.png);
+}
+
+.cards3 {
+  background-image: url(/image/bmw_PNG99543.png);
+}
+
+.cards4 {
+  background-image: url(/image/rolls_royce_PNG12.png);
+}
+
+.cards5 {
+  background-image: url(/image/maserati_PNG102.png);
+}
+
+.cards6 {
+  background-image: url(/image/nissan_PNG68.png);
+}
+
+.cards7 {
+  background-image: url(/image/bentley_PNG32.png);
+}
+
+.cards8 {
+  background-image: url(/image/ferrari_PNG10647.png);
+}
+
+.cards9 {
+  background-image: url(/image/land_rover_PNG16.png);
+}
