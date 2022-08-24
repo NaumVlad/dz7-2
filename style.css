@@ -11,10 +11,15 @@ body {
 }
 
 h1 {
-  padding-top: 110px;
+  position: relative;
+  top: 120px;
 }
 
-section {
+.text {
+  padding-top: 55px;
+}
+
+.cards {
   margin: 0.5em;
   width: calc(33.33vw - 1.2em);
   height: calc(33.33vh - 1em);
@@ -26,43 +31,15 @@ section {
   border-radius: 20px;
 }
 
-section:hover {
+.cards:hover {
   box-shadow: 10px 5px 5px black;
   transition: 0.7s;
 }
 
-.cards1 {
-  background-image: url(/image/acura_PNG118.png);
-}
-
-.cards2 {
-  background-image: url(/image/audi_PNG99482.png);
-}
-
-.cards3 {
-  background-image: url(/image/bmw_PNG99543.png);
-}
-
-.cards4 {
-  background-image: url(/image/rolls_royce_PNG12.png);
-}
-
-.cards5 {
-  background-image: url(/image/maserati_PNG102.png);
-}
-
-.cards6 {
-  background-image: url(/image/nissan_PNG68.png);
-}
-
-.cards7 {
-  background-image: url(/image/bentley_PNG32.png);
-}
-
-.cards8 {
-  background-image: url(/image/ferrari_PNG10647.png);
-}
-
-.cards9 {
-  background-image: url(/image/land_rover_PNG16.png);
+.picture {
+  width: 140px;
+  height: 80px;
+  /* ↓↓↓ Нужны ли эти значения ??? ↓↓↓/
+  /*   display: block;
+  margin: 0 auto; */
 }
