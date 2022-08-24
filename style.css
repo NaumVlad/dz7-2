@@ -8,13 +8,13 @@ body {
   text-align: center;
 }
 
-.header {
+/* .header {
   margin: 0.5em;
-}
+} */
 
-.link {
+/* .link {
   padding-top: 5px;
-  display: block;
+  clear: both;
   width: 130px;
   height: 30px;
   text-decoration: none;
@@ -22,37 +22,37 @@ body {
   color: blue;
   border-radius: 20px;
   transition: 0.7s;
-}
+} */
 
-.link:hover {
+/* .link:hover {
   width: 150px;
   box-shadow: 10px 5px 5px black;
   background-color: blue;
   color: #e7a01c;
-}
+} */
 
 h1 {
   position: relative;
   top: 120px;
 }
 
-.text {
+/* .text {
   padding-top: 55px;
 }
-
-.cards {
+ */
+/* .cards {
   margin: 0.5em;
   width: calc(33.33vw - 1.6em);
   height: calc(33.33vh - 1.9em);
   display: inline-block;
   background-color: #e7a01c;
   border-radius: 20px;
-}
+} */
 
-.cards:hover {
+/* .cards:hover {
   transition: 0.7s;
   box-shadow: 10px 5px 5px black;
-}
+} */
 
 .picture {
   width: 140px;
@@ -60,4 +60,12 @@ h1 {
   /* ↓↓↓ Нужны ли эти значения ??? ↓↓↓*/
   /*   display: block;
   margin: 0 auto; */
+}
+
+.float {
+  float: left;
+  background-color: #e7a01c;
+  margin: 0.5em;
+  width: calc(33.33% - 1em);
+  height: calc(33.33% - 1em);
 }
