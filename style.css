@@ -16,15 +16,14 @@ h1 {
 
 section {
   margin: 0.5em;
-  width: calc(33.33vw - 21px);
-  height: calc(33.33vh - 32px);
+  width: calc(33.33vw - 1.2em);
+  height: calc(33.33vh - 1em);
   display: inline-block;
   background-color: #e7a01c;
   background-size: 150px;
   background-position: center 10%;
   background-repeat: no-repeat;
   border-radius: 20px;
-  transition: 1s;
 }
 
 section:hover {
