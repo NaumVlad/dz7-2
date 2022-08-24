@@ -10,6 +10,20 @@ body {
   text-align: center;
 }
 
+.header {
+  margin: 0.5em;
+  /*   width: 160px; */
+}
+
+.link {
+  display: block;
+  width: 500px;
+  height: 30px;
+  text-decoration: none;
+  background-color: #e7a01c;
+  border-radius: 20px;
+}
+
 h1 {
   position: relative;
   top: 120px;
@@ -25,9 +39,6 @@ h1 {
   height: calc(33.33vh - 1em);
   display: inline-block;
   background-color: #e7a01c;
-  background-size: 150px;
-  background-position: center 10%;
-  background-repeat: no-repeat;
   border-radius: 20px;
 }
 
