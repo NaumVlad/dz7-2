@@ -58,9 +58,8 @@ h1 {
 .picture {
   width: 140px;
   height: 80px;
-  /* ↓↓↓ Нужны ли эти значения ??? ↓↓↓*/
-  /*   display: block;
-  margin: 0 auto; */
+  display: block;
+  margin: 0 auto;
 }
 
 /* ↓↓↓ Page2 ↓↓↓ */
