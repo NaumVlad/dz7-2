@@ -14,6 +14,7 @@ body {
 
 .link {
   display: block;
+  padding-top: 6px;
   width: 130px;
   height: 30px;
   clear: both;
@@ -42,7 +43,7 @@ h1 {
 
 .cards {
   margin: 0.5em;
-  width: calc(33.33% - 1.3em);
+  width: calc(33.33% - 1.2em);
   height: calc(33vh - 1.8em);
   display: inline-block;
   background-color: #e7a01c;
@@ -66,10 +67,12 @@ h1 {
 .header2 {
   margin: 0.5em;
   text-align: left;
+  padding-top: 6px;
+  height: 30px;
 }
 
 .link2 {
-  padding: 5px 20px 5px 20px;
+  padding: 6px 45px 7px 46px;
   clear: both;
   text-decoration: none;
   background-color: #e7a01c;
@@ -79,7 +82,7 @@ h1 {
 }
 
 .link2:hover {
-  padding: 5px 30px 5px 30px;
+  padding: 6px 55px 7px 56px;
   box-shadow: 10px 5px 5px black;
   background-color: blue;
   color: #e7a01c;
@@ -90,7 +93,7 @@ h1 {
   background-color: #e7a01c;
   margin: 0.5em;
   width: calc(33.33% - 1em);
-  height: calc(33vh - 1.6em);
+  height: calc(33vh - 1.8em);
   border-radius: 20px;
 }
 
